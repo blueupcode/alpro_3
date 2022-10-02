@@ -7,12 +7,12 @@ int main() {
   int jumlahPerulangan = 10;
   int faktorPengali;
 
-  // Memasukkan jumlah perulangan
+  // Memasukkan angka pengali
   cout << "Masukkan angka pengali: ";
   cin >> faktorPengali;
   cout << "==============================" << endl;
 
-  // Melakukan perulangan sejumlah angka yang dimasukkan
+  // Melakukan perulangan sejumlah angka yang ditentukan
   while (index <= jumlahPerulangan) {
 
     // Menampilkan hasil perkalian
