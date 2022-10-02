@@ -14,8 +14,8 @@ int main() {
   // Melakukan perulangan sejumlah angka yang dimasukkan
   while (index <= jumlahPerulangan) {
 
-    // Memasukkan angka yang akan dibandingkan
-    cout << "Perulangan angka ke-" << index << endl;
+    // Menampilkan hasil perulangan
+    cout << "Perulangan ke-" << index << endl;
 
     // Menambah index 
     index++;
