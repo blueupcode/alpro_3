@@ -18,6 +18,12 @@ int main() {
     cout << "Masukkan angka ke-" << index << ": ";
     cin >> angka;
 
+    // Mengasumsikan bahwa angka pertama adalah angka terbesar dan terkecil
+    if (index == 1) {
+      angkaTerbesar = angka;
+      angkaTerkecil = angka;
+    }
+
     // Membandingkan dengan angka terbesar 
     if (angka > angkaTerbesar) {
       angkaTerbesar = angka;
